@@ -1,6 +1,6 @@
 import {test,expect, chromium} from '@playwright/test';
 // import { test } from '../fixtures/BasePage.js';
-import { LoginPage } from '../PageObjects/LoginPage.js';
+import {LoginPage} from '../PageObjects/LoginPage.js';
 import {userDetails} from '../config/config.js';
 
 
