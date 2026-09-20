@@ -1,9 +1,7 @@
-import {test,expect, chromium} from '@playwright/test';
-// import { test } from '../fixtures/BasePage.js';
+import {expect, chromium} from '@playwright/test';
 import {LoginPage} from '../PageObjects/LoginPage.js';
 import {userDetails} from '../config/config.js';
-
-
+//
 
 export default async function globalSetup() {
 
